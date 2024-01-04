@@ -1,0 +1,112 @@
+body {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    /* background: linear-gradient(to bottom, #2980b9, #6dd5fa); Updated gradient for body */
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+    background-color: #0668b1;
+    color: #333; /* Adjusted text color */
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.uo.edu.pk/images/foot-logol.png);
+background-position: top center;
+background-size: 50%;
+background-repeat: no-repeat;
+}
+
+h1 {
+    color: #000000; /* Adjusted heading text color */
+}
+
+#courses {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 56%;
+    margin-left: 310px;
+    /* background: linear-gradient(to bottom, #4da6ff, #74bbfb); Updated gradient for courses section */
+    background: linear-gradient(to bottom, #eee, #ccc); /* Updated gradient for table */
+    
+
+}
+
+button {
+    background: linear-gradient(to bottom, #333, #000); /* Updated gradient for buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.2s ease; /* Transition for background color */
+    animation: pulse 0.8s infinite alternate; /* Animation for button */
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #555, #222); /* Updated button gradient on hover */
+}
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#resultTable {
+    width: 58%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-left: 310px;
+    background: linear-gradient(to bottom, #eee, #ccc); 
+    /* Updated gradient for table */
+    
+}
+
+#resultTable th, #resultTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#resultTable th {
+    background-color: #333;
+    color: white;
+}
+
+#totalGPA {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+}
+
+table {
+    border-radius: 20px;
+}
+  /* Add CSS for the logo */
+  #universityLogo {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+/* General styles for footer */
+footer {
+    /* background-color: #333; */
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position:static;
+    bottom: 0;
+    /* width: 100%; */
+    opacity: 0.7;
+    
+}
+
+/* Additional styling */
+footer p {
+    margin: 0;
+}
+
+/* Other styles from your existing CSS file can remain unchanged */
+/* ... */
